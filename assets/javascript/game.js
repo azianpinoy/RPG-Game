@@ -314,8 +314,7 @@ $("#attack-button").on("click", function(){
 
 		if(attacker.health <= 0){
 			$("#battle-text").empty();
-			attackerText.html("You have been defeated... Game Over!!!");
-			$("#battle-text").append(attackerText);
+			alert("You have been defeated... Game Over!!!");
 			$("#battle-text").append(restartButton);
 			battleTime = false;
 		}
